@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "article one"
+date:   2021-10-13 14:02:21 +0800
+categories: jekyll update
+---
+This is a test bloy
