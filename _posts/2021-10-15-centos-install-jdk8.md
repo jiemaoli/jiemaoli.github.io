@@ -42,6 +42,7 @@ lrwxrwxrwx. 1 root root 22 6月  28 12:13 /usr/bin/java -> /etc/alternatives/jav
 lrwxrwxrwx. 1 root root 73 6月  28 12:13 /etc/alternatives/java -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/jre/bin/java
 ```
 > `/usr/lib/jvm/` 即是安装路径，`which java`直接使用是定位不到安装路径的，需要配合其它命令使用。
+
 ### 删除旧版本JDK
 ```sh
 [root@sz-newtest1 ~]# cd /usr/lib/jvm
@@ -73,6 +74,7 @@ jre-1.7.0-openjdk                                   jre-openjdk
 ```sh
 [root@sz-newtest1 java]# mv jdk-8u291-linux-x64.tar.gz\?AuthParam\=1623989297_7ff18f9e0311551781e2bf448174efd4 jdk-8u291-linux-x64.tar.gz
 ```
+
 ## 安装
 * 解压
 ```sh
@@ -96,6 +98,7 @@ export JAVA_HOME JRE_HOME CLASS_PATH PATH
 ```sh
 [root@sz-newtest1 java]# source /etc/profile
 ```
+
 ## 验证
 ```sh
 [root@sz-newtest1 java]# java -version
