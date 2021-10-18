@@ -1,6 +1,6 @@
 ---
 title: CentOS安装JDK8
-description: CentOS 7.9安装JDK 1.8
+description: 
 categories:
  - java
 tags:
@@ -54,7 +54,7 @@ jre-1.7.0-openjdk                                   jre-openjdk
 ```
 ## 下载
 * 获取下载链接
-从[Oracle官网](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)获取JDK8 `Linux x64 Compressed Archive` 版本的下载链接。如果提示登录，可以使用账号`2696671285@qq.com` `Oracle123` 网络账号不保证可用性
+从[Oracle官网](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)获取JDK8 `Linux x64 Compressed Archive` 版本的下载链接。如果提示登录，可以使用账号`908344069@qq.com` `Java2019` （网络账号有可能不可用）
 * 执行下载命令
 ```sh
 [root@sz-newtest1 ~]# cd /usr/local
