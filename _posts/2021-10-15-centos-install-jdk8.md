@@ -6,6 +6,7 @@ categories:
 tags:
  - CentOS
  - JDK 1.8
+updated: 2021-10-18
 ---
 
 > Java开发的第一步是搭建开发环境，首先需要安装JDK。文章记录在CentOS下安装JDK 1.8的过程。
