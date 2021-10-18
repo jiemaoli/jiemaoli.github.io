@@ -1,6 +1,6 @@
 ---
 title: CentOS安装JDK8
-description: 
+description: CentOS 7安装JDK 1.8
 categories:
  - java
 tags:
